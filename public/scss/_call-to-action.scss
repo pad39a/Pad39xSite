@@ -1,0 +1,102 @@
+/*** 
+
+====================================================================
+		Call To Action
+====================================================================
+
+***/
+
+.call-to-action{
+    position: relative;
+    padding: 150px 0;
+    @include background;
+    z-index: 2;
+    &:before{
+        @include overlay;
+        background-color: var(--bg-theme-color1);
+        opacity: .5;
+        content: "";
+        pointer-events: none;
+    }
+    .outer-box {
+        position: relative;
+        .sec-title .sub-title {
+            margin-bottom: 15px;
+        }
+        .play-now {
+            position: absolute;
+            right: 10px;
+            top: 50%;
+            transform: translateY(-50%);
+            display: inline-block;
+            .icon {
+                height: 120px;
+                width: 120px;
+                background-color: var(--bg-theme-color2);
+                color: #fff;
+                font-size: 34px;
+                @include flex-center;
+                padding-left: 0;
+            }
+        }
+        .theme-btn {
+            margin-top: 35px;
+        }
+    }
+}
+
+
+// Call to Action / Style Two
+.call-to-action.style-two{
+    padding: 120px 0;
+    &:after{
+        display: none;
+    }
+    .outer-box{
+        padding: 0;
+    }
+}
+
+
+/*** 
+
+====================================================================
+		Call To Action
+====================================================================
+
+***/
+
+.call-to-action-two{
+    position: relative;
+    padding: 120px 0;
+    z-index: 2;
+    .outer-box{
+        position: relative;
+        @include background;
+        @include flex-between;
+        background-color: var(--bg-theme-color2-light);
+        padding: 57px 60px;
+        padding-left: 90px;
+        overflow: hidden;
+        border-radius: 10px;
+        &:before {
+            @include overlay;
+            background-color: var(--bg-theme-color2-light);
+            opacity: .85;
+            content: "";
+            pointer-events: none;
+        }
+    }
+    .title-box{
+        .title{
+            font-size: 36px;
+            line-height: 1.2em;
+            color: #fff;
+            font-weight: 700;
+        }
+    }
+    .btn-box {
+        position: relative;
+        z-index: 8;
+    }
+}

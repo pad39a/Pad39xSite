@@ -1,0 +1,23 @@
+/***
+
+====================================================================
+    Project Section
+====================================================================
+
+***/
+
+.project-section{
+    position: relative;
+    padding: 120px 0;
+}
+
+.project-details .project-details__top {
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+@media screen and (min-device-width: 769px) and (max-device-width: 2500px){
+  .project-details .project-details__top {
+    height: 500px;
+  }
+}

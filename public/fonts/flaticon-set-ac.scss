@@ -1,0 +1,301 @@
+$flaticon-font: "flaticon";
+
+@font-face {
+    font-family: $flaticon-font;
+    src: url("./flaticon.ttf?13350ccc06b7ecaa1de9e1042c23df72") format("truetype"),
+url("./flaticon.woff?13350ccc06b7ecaa1de9e1042c23df72") format("woff"),
+url("./flaticon.woff2?13350ccc06b7ecaa1de9e1042c23df72") format("woff2"),
+url("./flaticon.eot?13350ccc06b7ecaa1de9e1042c23df72#iefix") format("embedded-opentype"),
+url("./flaticon.svg?13350ccc06b7ecaa1de9e1042c23df72#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon-map: (
+    "split": "\f101",
+    "adjustment": "\f102",
+    "voltmeter": "\f103",
+    "repair": "\f104",
+    "lock": "\f105",
+    "air-conditioner": "\f106",
+    "humidifier": "\f107",
+    "power-button": "\f108",
+    "humidity": "\f109",
+    "sun": "\f10a",
+    "floor": "\f10b",
+    "safety": "\f10c",
+    "repairman": "\f10d",
+    "air-conditioner-1": "\f10e",
+    "air-conditioner-2": "\f10f",
+    "cleaning": "\f110",
+    "swing": "\f111",
+    "freeze": "\f112",
+    "oscillation": "\f113",
+    "hood": "\f114",
+    "remote-control": "\f115",
+    "air-conditioner-3": "\f116",
+    "fan": "\f117",
+    "adjustment-1": "\f118",
+    "night": "\f119",
+    "air-conditioner-4": "\f11a",
+    "repeat": "\f11b",
+    "air-conditioner-5": "\f11c",
+    "timer": "\f11d",
+    "freeze-1": "\f11e",
+    "thermometer": "\f11f",
+    "ventilation": "\f120",
+    "chiller": "\f121",
+    "turbine": "\f122",
+    "hot": "\f123",
+    "air-conditioner-6": "\f124",
+    "clean-air": "\f125",
+    "ventilator": "\f126",
+    "snowflake": "\f127",
+    "thermometer-1": "\f128",
+    "sunny": "\f129",
+    "air-conditioner-7": "\f12a",
+    "fan-1": "\f12b",
+    "dry": "\f12c",
+    "air-conditioner-8": "\f12d",
+    "air-conditioner-9": "\f12e",
+    "air-filter": "\f12f",
+    "duct": "\f130",
+    "air-purifier": "\f131",
+    "air-filter-1": "\f132",
+    "air-conditioner-10": "\f133",
+    "air-conditioning": "\f134",
+    "mechanic": "\f135",
+    "checklist": "\f136",
+    "lug": "\f137",
+    "man": "\f138",
+    "man-1": "\f139",
+    "lawyer": "\f13a",
+    "sun-1": "\f13b",
+    "temperature": "\f13c",
+    "snows": "\f13d",
+    "rain": "\f13e",
+    "sleet": "\f13f",
+    "sunny-1": "\f140",
+    "air-conditioner-11": "\f141",
+    "clipboard": "\f142",
+    "alarm-clock": "\f143",
+    "trophy": "\f144",
+    "news": "\f145",
+);
+
+.flaticon-split:before {
+    content: map-get($flaticon-map, "split");
+}
+.flaticon-adjustment:before {
+    content: map-get($flaticon-map, "adjustment");
+}
+.flaticon-voltmeter:before {
+    content: map-get($flaticon-map, "voltmeter");
+}
+.flaticon-repair:before {
+    content: map-get($flaticon-map, "repair");
+}
+.flaticon-lock:before {
+    content: map-get($flaticon-map, "lock");
+}
+.flaticon-air-conditioner:before {
+    content: map-get($flaticon-map, "air-conditioner");
+}
+.flaticon-humidifier:before {
+    content: map-get($flaticon-map, "humidifier");
+}
+.flaticon-power-button:before {
+    content: map-get($flaticon-map, "power-button");
+}
+.flaticon-humidity:before {
+    content: map-get($flaticon-map, "humidity");
+}
+.flaticon-sun:before {
+    content: map-get($flaticon-map, "sun");
+}
+.flaticon-floor:before {
+    content: map-get($flaticon-map, "floor");
+}
+.flaticon-safety:before {
+    content: map-get($flaticon-map, "safety");
+}
+.flaticon-repairman:before {
+    content: map-get($flaticon-map, "repairman");
+}
+.flaticon-air-conditioner-1:before {
+    content: map-get($flaticon-map, "air-conditioner-1");
+}
+.flaticon-air-conditioner-2:before {
+    content: map-get($flaticon-map, "air-conditioner-2");
+}
+.flaticon-cleaning:before {
+    content: map-get($flaticon-map, "cleaning");
+}
+.flaticon-swing:before {
+    content: map-get($flaticon-map, "swing");
+}
+.flaticon-freeze:before {
+    content: map-get($flaticon-map, "freeze");
+}
+.flaticon-oscillation:before {
+    content: map-get($flaticon-map, "oscillation");
+}
+.flaticon-hood:before {
+    content: map-get($flaticon-map, "hood");
+}
+.flaticon-remote-control:before {
+    content: map-get($flaticon-map, "remote-control");
+}
+.flaticon-air-conditioner-3:before {
+    content: map-get($flaticon-map, "air-conditioner-3");
+}
+.flaticon-fan:before {
+    content: map-get($flaticon-map, "fan");
+}
+.flaticon-adjustment-1:before {
+    content: map-get($flaticon-map, "adjustment-1");
+}
+.flaticon-night:before {
+    content: map-get($flaticon-map, "night");
+}
+.flaticon-air-conditioner-4:before {
+    content: map-get($flaticon-map, "air-conditioner-4");
+}
+.flaticon-repeat:before {
+    content: map-get($flaticon-map, "repeat");
+}
+.flaticon-air-conditioner-5:before {
+    content: map-get($flaticon-map, "air-conditioner-5");
+}
+.flaticon-timer:before {
+    content: map-get($flaticon-map, "timer");
+}
+.flaticon-freeze-1:before {
+    content: map-get($flaticon-map, "freeze-1");
+}
+.flaticon-thermometer:before {
+    content: map-get($flaticon-map, "thermometer");
+}
+.flaticon-ventilation:before {
+    content: map-get($flaticon-map, "ventilation");
+}
+.flaticon-chiller:before {
+    content: map-get($flaticon-map, "chiller");
+}
+.flaticon-turbine:before {
+    content: map-get($flaticon-map, "turbine");
+}
+.flaticon-hot:before {
+    content: map-get($flaticon-map, "hot");
+}
+.flaticon-air-conditioner-6:before {
+    content: map-get($flaticon-map, "air-conditioner-6");
+}
+.flaticon-clean-air:before {
+    content: map-get($flaticon-map, "clean-air");
+}
+.flaticon-ventilator:before {
+    content: map-get($flaticon-map, "ventilator");
+}
+.flaticon-snowflake:before {
+    content: map-get($flaticon-map, "snowflake");
+}
+.flaticon-thermometer-1:before {
+    content: map-get($flaticon-map, "thermometer-1");
+}
+.flaticon-sunny:before {
+    content: map-get($flaticon-map, "sunny");
+}
+.flaticon-air-conditioner-7:before {
+    content: map-get($flaticon-map, "air-conditioner-7");
+}
+.flaticon-fan-1:before {
+    content: map-get($flaticon-map, "fan-1");
+}
+.flaticon-dry:before {
+    content: map-get($flaticon-map, "dry");
+}
+.flaticon-air-conditioner-8:before {
+    content: map-get($flaticon-map, "air-conditioner-8");
+}
+.flaticon-air-conditioner-9:before {
+    content: map-get($flaticon-map, "air-conditioner-9");
+}
+.flaticon-air-filter:before {
+    content: map-get($flaticon-map, "air-filter");
+}
+.flaticon-duct:before {
+    content: map-get($flaticon-map, "duct");
+}
+.flaticon-air-purifier:before {
+    content: map-get($flaticon-map, "air-purifier");
+}
+.flaticon-air-filter-1:before {
+    content: map-get($flaticon-map, "air-filter-1");
+}
+.flaticon-air-conditioner-10:before {
+    content: map-get($flaticon-map, "air-conditioner-10");
+}
+.flaticon-air-conditioning:before {
+    content: map-get($flaticon-map, "air-conditioning");
+}
+.flaticon-mechanic:before {
+    content: map-get($flaticon-map, "mechanic");
+}
+.flaticon-checklist:before {
+    content: map-get($flaticon-map, "checklist");
+}
+.flaticon-lug:before {
+    content: map-get($flaticon-map, "lug");
+}
+.flaticon-man:before {
+    content: map-get($flaticon-map, "man");
+}
+.flaticon-man-1:before {
+    content: map-get($flaticon-map, "man-1");
+}
+.flaticon-lawyer:before {
+    content: map-get($flaticon-map, "lawyer");
+}
+.flaticon-sun-1:before {
+    content: map-get($flaticon-map, "sun-1");
+}
+.flaticon-temperature:before {
+    content: map-get($flaticon-map, "temperature");
+}
+.flaticon-snows:before {
+    content: map-get($flaticon-map, "snows");
+}
+.flaticon-rain:before {
+    content: map-get($flaticon-map, "rain");
+}
+.flaticon-sleet:before {
+    content: map-get($flaticon-map, "sleet");
+}
+.flaticon-sunny-1:before {
+    content: map-get($flaticon-map, "sunny-1");
+}
+.flaticon-air-conditioner-11:before {
+    content: map-get($flaticon-map, "air-conditioner-11");
+}
+.flaticon-clipboard:before {
+    content: map-get($flaticon-map, "clipboard");
+}
+.flaticon-alarm-clock:before {
+    content: map-get($flaticon-map, "alarm-clock");
+}
+.flaticon-trophy:before {
+    content: map-get($flaticon-map, "trophy");
+}
+.flaticon-news:before {
+    content: map-get($flaticon-map, "news");
+}
