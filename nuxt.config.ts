@@ -23,7 +23,7 @@ export default defineNuxtConfig({
   },
 
   css: [
-      '@unocss/reset/tailwind.css',
+      // '@unocss/reset/tailwind.css',
       'swiper/css',
       'swiper/css/navigation',
       'swiper/css/pagination',
@@ -37,7 +37,7 @@ export default defineNuxtConfig({
   modules: [
       '@vueuse/nuxt',
       // '@primevue/nuxt-module',
-      '@unocss/nuxt',
+      // '@unocss/nuxt',
       // '@pinia/nuxt',
       // '@nuxtjs/color-mode',
       '@vite-pwa/nuxt',
