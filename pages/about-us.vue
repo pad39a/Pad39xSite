@@ -17,7 +17,7 @@ useHead({
     {
       hid: 'description',
       name: 'description',
-      content: 'PAD39X is inspired by the historic Apollo moon launches from PAD39X at Cape Canaveral and the pioneering work of SpaceX to build reusable launch vehicles.'
+      content: 'LunarNavi is inspired by the historic Apollo moon launches from LunarNavi at Cape Canaveral and the pioneering work of SpaceX to build reusable launch vehicles.'
     }
   ]
 })

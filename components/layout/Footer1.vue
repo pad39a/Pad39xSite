@@ -9,7 +9,7 @@
           <!--Footer Column-->
           <div class="footer-column col-lg-3 col-sm-6">
             <div class="footer-widget about-widget">
-              <div class="logo"><NuxtLink class="flex items-center gap-2" to="/"><Logo class="h-10" /> <span class="font-bold block text-white text-2xl">PAD39X</span>
+              <div class="logo"><NuxtLink class="flex items-center gap-2" to="/"><Logo class="h-10" /> <span class="font-bold block text-white text-2xl">LunarNavi</span>
               </NuxtLink></div>
               <div class="text">Our mission is to create new and experimental space technologies based on proven commercial products.</div>
 <!--              <ul class="social-icon-two">-->
@@ -85,7 +85,7 @@
       <div class="auto-container">
         <div class="inner-container d-flex justify-content-between">
           <div class="copyright-text">
-            <p class="mb-0">&copy; Copyright {{ new Date().getFullYear() }} reserved by <NuxtLink to="/">PAD39X</NuxtLink></p>
+            <p class="mb-0">&copy; Copyright {{ new Date().getFullYear() }} reserved by <NuxtLink to="/">LunarNavi</NuxtLink></p>
           </div>
           <!-- <ul class="social-icon-two">
             <li>

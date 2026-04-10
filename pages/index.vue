@@ -21,8 +21,8 @@ const title = 'Home'
 useSeoMeta({
   title,
   ogTitle: title,
-  description: 'Home page of PAD39X',
-  ogDescription: 'Home page of PAD39X',
+  description: 'Home page of LunarNavi',
+  ogDescription: 'Home page of LunarNavi',
 
 })
 </script>

@@ -198,8 +198,8 @@ export const countries = [
   ];
   
 export const CONTACT_INFO ={
-  email: 'info@pad39x.com',
-  name: 'PAD39X',
+  email: 'info@lunarnavi.com',
+  name: 'LunarNavi',
   daysOpen: 'Monday - Friday',
   hoursOpen: '8:00am - 5:00pm',
   city: 'Titusville',

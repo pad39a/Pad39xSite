@@ -15,7 +15,7 @@ useHead({
   meta: [
     {
       name: 'description',
-      content: 'Contact page of PAD39X'
+      content: 'Contact page of LunarNavi'
     }
   ]
 })

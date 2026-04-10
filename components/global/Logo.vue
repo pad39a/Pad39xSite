@@ -1,4 +1,4 @@
 <template>
-    <NuxtImg src="/images/pad39xlogo.png" format="webp" />
+    <NuxtImg src="/images/lunaravilogo.png" format="webp" />
   </template>
   

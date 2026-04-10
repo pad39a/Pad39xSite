@@ -10,15 +10,15 @@
                 <div class="lg:max-w-lg">
                   <div class="sec-title">
                     <span v-motion-slide-visible-once-left  class="sub-title">About Us</span>
-                    <h2 v-motion-slide-visible-once-left  class="title">Welcome to AeroSpace Technology PAD39X</h2>
+                    <h2 v-motion-slide-visible-once-left  class="title">Welcome to AeroSpace Technology LunarNavi</h2>
                     <div class="text">
-                      <p  v-motion-slide-visible-once-left>PAD39X is inspired by the historic Apollo moon launches from PAD39A at Cape Canaveral and the
+                      <p  v-motion-slide-visible-once-left>LunarNavi is inspired by the historic Apollo moon launches from PAD39A at Cape Canaveral and the
                         pioneering work of SpaceX to build reusable launch vehicles. </p>
                       <p  v-motion-slide-visible-once-left>Our mission is to create new and experimental space technologies based on proven commercial
                         products. Our team over a period of thirty years have solved recurring gaps between what
                         aerospace and commercial manufacturers are willing to build and what the next generation of
                         space pioneers need to reach their mission goals. </p>
-                      <p  v-motion-slide-visible-once-left>PAD39X engineers and partners provide options to solve both small and large specification gaps
+                      <p  v-motion-slide-visible-once-left>LunarNavi engineers and partners provide options to solve both small and large specification gaps
                         to create a winning solution within aerospace and spacecraft requirements and budgets. </p>
                     </div>
                   </div>
@@ -27,7 +27,7 @@
                     </div> -->
                   <figure v-motion-slide-visible-once-bottom class="mt-16 border-l border-gray-200 pl-8 text-gray-600">
                     <blockquote class="text-base/7">
-                      <p>“The PAD39X team help us with the development and successful launch of a new avionics module
+                      <p>“The LunarNavi team help us with the development and successful launch of a new avionics module
                         used
                         in flight vehicles and the associated test and calibration systems.”</p>
                     </blockquote>

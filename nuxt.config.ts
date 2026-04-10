@@ -10,14 +10,14 @@ export default defineNuxtConfig({
   app: {
       head: {
           meta: [{ name: "viewport", content: "width=device-width, initial-scale=1" },
-              { hid: 'og:title', property: 'og:title', content: 'PAD39X Aerospace Technologies Center' },
-              { hid: 'og:description', property: 'og:description', content: `PAD39X is inspired by the historic Apollo moon launches from PAD39X at Cape Canaveral and the
+              { hid: 'og:title', property: 'og:title', content: 'LunarNavi Aerospace Technologies Center' },
+              { hid: 'og:description', property: 'og:description', content: `LunarNavi is inspired by the historic Apollo moon launches from LunarNavi at Cape Canaveral and the
                       pioneering work of SpaceX to build reusable launch vehicles.` },
-              { hid: 'og:image', property: 'og:image', content: '/images/pad39xlogo.png' },
+              { hid: 'og:image', property: 'og:image', content: '/images/lunaravilogo.png' },
           ],
           link: [{ rel: 'icon', type: 'image/png', href: '/images/pad39favicon.png' }],
-          title: "PAD39X Aerospace Technologies Center",
-          description: "PAD39X is inspired by the historic Apollo moon launches from PAD39X at Cape Canaveral and the pioneering work of SpaceX to build reusable launch vehicles.",
+          title: "LunarNavi Aerospace Technologies Center",
+          description: "LunarNavi is inspired by the historic Apollo moon launches from LunarNavi at Cape Canaveral and the pioneering work of SpaceX to build reusable launch vehicles.",
           script: []
       }
   },
@@ -66,7 +66,7 @@ export default defineNuxtConfig({
 
   site: {
       url: 'https://pad39-v2.vercel.app',
-      name: 'PAD39X',
+      name: 'LunarNavi',
       // ...etc
     },
 
